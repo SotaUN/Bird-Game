@@ -58,7 +58,7 @@ function game(){
     ctx.fillStyle = "lightgreen";
     ctx.fillRect(0,0,1400,700);
     ctx.fillStyle = "blue";
-    ctx.fillRect(count%700,100,5,5);
+    //ctx.fillRect(count%700,100,5,5);
     
     
     
@@ -83,7 +83,7 @@ function game(){
     dest_move();
 
 
-    ctx.fillRect(bird_average.x,bird_average.y,10,10);
+    //ctx.fillRect(bird_average.x,bird_average.y,10,10);
 
     const orima = new Image();
     orima.src = "./orima.png";
