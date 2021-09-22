@@ -284,7 +284,7 @@ document.addEventListener('keydown', (event) => {
     
 });
 document.addEventListener('keyup', (event) => {
-    document.getElementById("output_message").innerHTML = event.key + " a";
+    //document.getElementById("output_message").innerHTML = event.key + " a";
     event.preventDefault();
     if(event.key == "ArrowUp"){
         up_push = false;
